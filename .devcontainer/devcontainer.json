@@ -1,0 +1,11 @@
+{
+    "name": "Example Go Project",
+    "image": "mcr.microsoft.com/vscode/devcontainers/go:latest",
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": ["golang.Go"]
+      }
+    },
+    "postCreateCommand": "go version"
+}
